@@ -6,11 +6,18 @@ and Gradle.
 
 ## Project Structure
 
-redis/ ├── build.gradle # Root Gradle build file with shared dependencies ├── settings.gradle # Gradle settings file for
-multi-project setup ├── service-a/ # Subproject: Service A │ ├── build.gradle # Service A-specific Gradle build file │
-└── src/ # Source code for Service A ├── service-b/ # Subproject: Service B │ ├── build.gradle # Service B-specific
-Gradle build file │ └── src/ # Source code for Service B └── service-c/ # Subproject: Service C ├── build.gradle #
-Service C-specific Gradle build file └── src/ # Source code for Service C
+redis/
+├── build.gradle               # Root Gradle build file with shared dependencies
+├── settings.gradle            # Gradle settings file for multi-project setup
+├── service-a/                 # Subproject: Service A
+│   ├── build.gradle           # Service A-specific Gradle build file
+│   └── src/                   # Source code for Service A
+├── service-b/                 # Subproject: Service B
+│   ├── build.gradle           # Service B-specific Gradle build file
+│   └── src/                   # Source code for Service B
+└── service-c/                 # Subproject: Service C
+├── build.gradle           # Service C-specific Gradle build file
+└── src/                   # Source code for Service C
 
 ## Features
 
