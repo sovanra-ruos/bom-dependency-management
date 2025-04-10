@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+}
+
+//dependencies {
+//    // Add service-specific dependencies here
+//    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+//}

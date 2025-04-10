@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: service-a
+  datasource:
+    url: jdbc:postgresql://localhost:5432/redis_db
+    username: postgres
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  data:
+    redis:
+      timeout: 60000
+      port: 6379
+      host: localhost
